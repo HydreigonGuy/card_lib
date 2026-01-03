@@ -2,6 +2,7 @@
 SRC		=	src/Card.cpp	\
 			src/Deck.cpp	\
 			src/SkyjoDeck.cpp	\
+			src/StandardDeck.cpp	\
 			src/main.cpp
 
 OBJ		=	$(SRC:.cpp=.o)
