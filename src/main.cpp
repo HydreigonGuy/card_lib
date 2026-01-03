@@ -6,6 +6,7 @@
 int main(int ac, char **av)
 {
     SkyjoDeck deck;
+    deck.shuffle();
     std::shared_ptr<Card> card = deck.draw();
 
     while (card.get()->check()) {

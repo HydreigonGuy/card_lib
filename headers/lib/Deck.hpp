@@ -4,6 +4,9 @@
 
 #include <vector>
 #include <memory>
+#include <algorithm>
+#include <random>
+#include <chrono>
 
 #include "Card.hpp"
 
