@@ -15,6 +15,8 @@ class Deck {
         std::shared_ptr<Card> draw();
 
     protected:
+        void addCard(std::shared_ptr<Card> card);
+
     private:
         std::vector<std::shared_ptr<Card>> _cards;
 };
