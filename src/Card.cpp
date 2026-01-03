@@ -16,12 +16,12 @@ Card::~Card()
 {
 }
 
-int getValue()
+int Card::getValue()
 {
     return (this->_value);
 }
 
-std::string getName()
+std::string Card::getName()
 {
     return (this->_name);
 }
